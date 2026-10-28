@@ -1,0 +1,7 @@
+docker run -dit \
+  --name uninavid_dev_v2 \
+  --gpus all \
+  -v /home/yiyu/Uni-NaVid-ws:/workspace \
+  -w /workspace \
+  uni_navid_image:latest \
+  bash
